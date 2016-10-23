@@ -1,0 +1,499 @@
+body {
+	font-family: Arial, sans-serif;
+	color: black;
+	font-size: 13px;
+}
+
+header {
+	min-width: 1400px;
+	height: 121px;
+	background-color: #e8ebf1;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07); 
+}
+
+h1 {
+	width: 300px;
+	color: white;
+	font-family: "Lato", sans-serif;
+	font-size: 50px;
+	padding-left: 61px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+h2 {
+	color: black;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	margin-left: 50px;
+}
+h3 {
+	font-size: 15px;
+	color: black;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #363636;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+h5 {
+	color: #363636;
+	font-size: 14px;
+
+}
+
+h6 {
+	color: #363636;
+	font-size: 13px;
+	font-weight: 400;
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 148px;
+	height: 37px;
+	background-image: url(../image/bislite.png);
+	background-repeat: no-repeat;
+	margin-top: 35px;
+}
+
+.navigation ul, ul.navigation {
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	float: right;
+}
+
+.navigation li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-size: 13px
+}
+
+	
+.navigation > li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+}
+
+.list ul {
+	display: none;
+}
+	
+.list:hover ul {
+	display: block;
+	background-color: white;
+}	
+
+.navigation > li > a {
+	display: block;
+	padding: 20px;
+}
+
+ul.navigation li.list > a:after {
+	content: "";
+	display:inline-block;
+	height: 0;
+	width: 0;
+	border: 5px solid transparent;
+	border-top-color: black;
+	border-bottom-width: 0;
+	border-top-width: 10px;
+	margin-left: 5px;
+}
+
+ul.navigation li.list:hover > a:after {
+	border-bottom-width: 10px;
+	border-top-width: 0;
+	border-bottom-color: black;
+}
+
+ul.navigation li.list {
+	position: relative;
+}
+
+ul.navigation li.list ul a {
+	display: block;
+	padding: 5px;
+	white-space: nowrap;
+}
+
+ul.navigation li.list ul li {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+ul.navigation li.list ul li:last-child {
+	border:none;
+}
+
+ul.navigation li.list:hover{
+	border-top: 3px solid #2aacc8;
+	background-color: white;
+}
+
+ul.navigation li.list ul {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	border-bottom: 3px solid #2aacc8;
+}
+
+ul.navigation li.list a:hover {
+	color: #2aacc8;
+}
+
+.banner-bloq {
+	min-width: 1400px;
+	height: 500px;
+	background-color: #81e4ed;
+	padding-top: 50px;
+}
+
+.banner {
+	height: 440px;
+	background-color: #e05936;
+	background-image: url(../image/layer-4.png);
+	background-position: right;
+	background-size: 46%;
+	box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.12);
+	background-repeat: no-repeat;
+	padding-top: 10px;
+}
+
+.paggination-buttons {
+	width: 300px;
+	margin: 0 auto;
+}
+
+
+.pagination {
+	width: 14px;
+	height: 14px;
+	opacity: 0.5;
+	background-color: #626262;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.pagination:hover {
+	background-color: white;
+}
+
+.container .pagination {
+	margin-top: 15px;
+	margin-left: 18px;
+}
+
+.work {
+	height: 302px;
+	min-width: 1400px;
+	background-color: #e8ebf1;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.07);
+
+}
+.services {
+	width: 22%;
+	display: inline-block;	
+	margin: 10px;
+}
+
+.services a {
+	color: #2aacc8;
+	text-decoration: none;
+}
+
+.services a:before {
+	content: ">";
+	display: inline-block;
+	color: black;
+	width: 5px;
+	height: 7px;
+	margin-right: 5px;
+	font-weight: bolder;
+}
+
+.services:before {
+	margin-bottom: -40px;
+}    
+
+.shape:before {
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #2aacc8;
+	border-radius: 50%;
+	background-image: url(../image/shape-2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.fullscreen:before {
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #2aacc8;
+	border-radius: 50%;
+	background-image: url(../image/fullscreen.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.view-list:before {
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #2aacc8;
+	border-radius: 50%;
+	background-image: url(../image/view-list.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.plane:before {
+	content: "";
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #2aacc8;
+	border-radius: 50%;
+	background-image: url(../image/plane-2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.projects {
+	min-width: 1400px;
+	font-size: 0;
+}
+
+.projects h3:before {
+	content: "";
+	display: inline-block;
+	width: 14px;
+	height: 24px;
+	background-color: transparent;
+	background-image: url(../image/shape-3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 25px;
+}
+
+.arrow {
+	width: 20px;
+	height: 20px;
+	background-color: #81e4ed;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 15px;
+	color: #434343;
+	float: right;
+	text-align: center;
+	font-weight: bolder;
+	margin-left: 15px;
+}
+
+.arrow a {
+	text-decoration: none;
+}
+
+.projects-item {
+	display: inline-block;
+	margin: 20px 1.5%;
+}
+
+.projects-item img {
+	width: 220px;
+	height: 160px;
+}
+
+.projects-item .previe {
+	width: 220px;
+	height: 50px;
+	position: absolute;
+	top: 1150px;
+	bottom: 0;
+	left: auto;
+	background-color: #2aacc8;
+	display: none;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.projects-item:hover .previe {
+	display: block;
+}
+
+.projects-item .previe a{
+	text-decoration: none;
+}
+
+.projects-item .previe a:first-child:before {
+	content: url(../image/preview.png);
+}
+
+.projects-item .previe a:last-child:before {
+	content: url(../image/link.png);
+}
+
+
+.testimonials {
+	min-width: 1400px;
+}
+
+hr {
+	color: #dfe1e5;;
+	size: 1px;
+	min-width: 1400px;
+}
+
+.content-info {
+	min-width: 1400px;
+}
+
+.text {
+	width: 425px;
+	height: 300px;
+}
+
+.clients {
+	width: 50%;
+	height: 300px;
+	float: right;
+	font-size: 0;
+	margin-top: -10px;
+}
+
+.text h3:before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 23px;
+	background-color: transparent;
+	background-image: url(../image/comments.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 25px;
+}
+
+.text p {
+	margin-left: 15px;
+}
+
+.clients img {
+	width: 160px;
+	height: 101px;
+	background-color: white;
+	border: 1px solid #e8ebf1;
+	box-shadow: inset 0 0 25px #e8ebf1;
+}
+
+.clients  h3:before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 20px;
+	background-color: transparent;
+	background-image: url(../image/clients.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 25px;
+}
+
+.dnl {
+	min-width: 1000px;
+	height: 140px;
+	background-color: #e8fcfe;
+	border: 1px solid #81e4ed;
+	font-size: 16px;
+	padding-left: 30px;
+    padding-top: 35px;
+}
+
+
+.buttom-dnl {
+	width: 240px;
+	height: 60px;
+	background-color: #81e4ed;
+    background-image: linear-gradient(to top, #2aacc8 0%, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
+	background-image: url(../image/download.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	border: 1px solid #2aacc8;
+	border-radius: 8px;
+	box-shadow: inset 0 2px 1px rgba(255, 255, 255, 0.1), 0 2px 3px rgba(0, 0, 0, 0.2);
+	float: right;
+	margin: 20px 40px 40px 80px;
+}
+.buttom-dnl a {
+	text-decoration: none;
+	color: #0d0707;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
+footer {
+	min-width: 1400px;
+	height: 332px;
+	background-color: #e8ebf1;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	/*background-image: url(../image/bislite.png);
+	background-position: 85% 90%;
+	background-repeat: no-repeat;*/
+}
+
+
+
+.footer-information {
+	min-width: 1400px;
+	font-size: 0;
+}
+
+
+.info, .info-links {
+	width: 17%;
+	margin-right: 3.0%;
+	float: left;
+}
+
+.info a {
+	text-decoration: none;
+	color: #363636;
+	font-size: 14px;
+	display: block;
+	
+}
+
+.info img {
+	width: 53px;
+	height: 51px;
+}
+
+.footer-information h6 {
+	float: left;
+	width: 680px;
+	margin-right: 320px;
+}
+
+.footer-logo {
+	margin-top: 120px;
+}
